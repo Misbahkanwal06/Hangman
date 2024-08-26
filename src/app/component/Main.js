@@ -76,7 +76,7 @@ function Game() {
       <div className="d-flex flex-column align-items-center ">
         <h1>Hangman</h1>
         <WordDisplay word={word} guessedLetters={guessedLetters} />
-        <h4 className="">Incorrect guesses: {count} / 6</h4>
+        <h5 className="">Incorrect guesses: {count} / 6</h5>
         <Keyboard onLetterClick={handleLetterClick} />
         <ResetButton onReset={handleReset} />
       </div>

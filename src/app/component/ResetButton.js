@@ -10,7 +10,7 @@ function ResetButton() {
         window.location.reload();
        }
   return (
-    <button className="btn btn-danger " onClick={restart} >
+    <button className="btn btn-danger mt-4" onClick={restart} >
       Restart
     </button>
   );
